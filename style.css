@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@300;500&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header-box {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-left: 30px;
+    margin-top: 20px;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.menu {
+    margin-left: 450px
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    color: #fab700
+}
+
+.home-box {
+    margin-top: 50px;
+    position: relative;
+}
+
+.banner-text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    font-size: 60px;
+}
+
+h3 {
+    color: white
+}
+
+#search {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px
+}
+
+span {
+    color: black;
+    background-color: #fab700;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 20px
+}
+
+.blck-button {
+    padding: 0px 44px;
+    line-height: 50px;
+    background: #222222;
+    color: #fab700;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.blck-button:hover {
+    background-color: #fab700;
+    color: black
+}
+
+.title {
+    color: #777777;
+    font-size: 14px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+
+.main-title {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#services-text {
+    color: #777777;
+    font-size: 14px;
+}
+
+#link {
+    color: #222222;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.services-row {
+    display: flex;
+    width: 60%;
+    margin: 0 auto
+}
+
+.services-item {
+    margin: 100px;
+    width: 100%
+}
+
+.services {
+    margin: 20px;
+}
+
+.services:hover {
+    box-shadow: 0px 13px 36px -14px rgba(0, 0, 0, 0.58);
+}
+
+.services-img {
+    margin-left: 62px
+}
+
+.builder-text {
+    color: #777777;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-title {
+    margin-top: 50px;
+}
+
+.builder-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.builder-text {
+    margin-bottom: 50px;
+}
+
+.builder-item {
+    width: 33.33%;
+    height: 350px;
+    position: relative;
+}
+
+.builder-img {
+    width: 100%;
+    height: 100%;
+}
+
+.hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    background-color: #fab700;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+    transition: 0.9ms;
+}
+
+.builder-item:hover .hover {
+    visibility: visible;
+}
+
+h4 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#builder-title {
+    color: black;
+    font-size: 14px;
+}
+
+#team-text {
+    color: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777
+}
+
+.team-row {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.team-item {
+    margin: 20px;
+    border: 2px solid green
+}
+
+.team-name {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.main-link {
+    color: black
+}
+
+.team-item:hover.hover {
+    visibility: visible;
+}
+
+.team-container {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+}
+
+.team-inner-container {
+    width: 23%;
+    margin: 1%;
+    height: 360px;
+    text-align: center;
+}
+
+.img-container {
+    position: relative;
+    width: 263px;
+}
+
+.team-inner-container h2 {
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+.team-inner-container p {
+    color: gray;
+    font-size: 16px;
+}
+
+.team-inner-container:hover .hover {
+    visibility: visible;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    opacity: 0.4;
+}
+
+.icon:hover {
+    opacity: 1;
+}
+
+.team-text {
+    font-size: 14px;
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+}
+
+#counter-text {
+    color: #222222;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.counter-row {
+    display: flex;
+    width: 70%;
+    margin: 0 auto
+}
+
+.counter-item {
+    margin: 80px;
+}
+
+.counter-area {
+    background-color: #fab700;
+}
+
+.counter {
+    font-size: 48px;
+    color: #222222;
+    font-family: 'Oswald', sans-serif;
+}
+
+#text {
+    color: #777777;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-title2 {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.feature-inner-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto
+}
+
+#feature-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.feature-icon {
+    display: flex;
+}
+
+#feature-icon {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.feature-item {
+    border: 1px solid #777777;
+    width: 360px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.feature-item:hover .feature-icon {
+    color: #fab700
+}
+
+.feature-item:hover {
+    box-shadow: 4px 6px 10px -7px rgba(0, 0, 0, 0.56);
+    border: none;
+}
+
+.testimonials {
+    margin-top: 200px
+}
+
+.testimonials-row {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.testimonials-img {
+    display: flex
+}
+
+#testimonials-img {
+    width: 80px;
+    height: 80px;
+}
+
+.testimonials-text {
+    color: #777777;
+    margin: 10px
+}
+
+.namee {
+    margin-left: 200px
+}
+
+.name {
+    margin-left: 100px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ceo {
+    color: #777777;
+    margin-left: 100px
+}
+
+.testimonials-item {
+    margin: 30px;
+    border: 1px solid #777777;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.testimonials-item:hover .name {
+    color: #fab700;
+}
+
+.testimonials-item:hover {
+    box-shadow: 4px 6px 10px -7px rgba(0, 0, 0, 0.56);
+    border: none;
+    transition: 1s;
+}
+
+.container2 {
+    margin-top: 10%;
+}
+
+.logos-row {
+    display: flex;
+    width: 60%;
+    margin: 0 auto
+}
+
+.logo {
+    margin: 50px;
+    opacity: 0.5;
+    transition: 800ms;
+}
+
+.logo:hover {
+    opacity: 1;
+}
+
+.search {
+    width: 80px;
+    height: 80px;
+}
+
+footer {
+    background: #222222;
+}
+
+h6 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.row {
+    display: flex;
+    width: 80%;
+    margin: 0 auto
+}
+
+.footer-item {
+    margin: 130px;
+    width: 100%;
+}
+
+.footer-text {
+    color: #777777;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+}
+
+.phone-number {
+    color: #fab700;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+input {
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid green;
+    font-size: 20px;
+    margin-top: 50px;
+    width: 400px;
+    height: 50px;
+    padding: 20px;
+}
+
+.mail-div {
+    display: flex;
+    position: relative;
+}
+
+#arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 60px;
+    left: 350px;
+    background-color: #fab700;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#copyright {
+    color: #777777;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin-left: 15%
+}
+
+#colorib {
+    color: #fab700;
+    border: none;
+    background-color: #222222;
+    font-weight: 800;
+}
+
+#icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid #111111;
+    background-color: #111111;
+    padding: 10px;
+}
+
+#icon:hover {
+    background-color: #fab700;
+}
+
+.last-icons {
+    display: flex
+}
+
+.last-footer {
+    display: flex
+}
